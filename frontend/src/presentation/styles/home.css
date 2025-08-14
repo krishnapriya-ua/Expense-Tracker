@@ -1,0 +1,23 @@
+.exp-row{
+    display: flex;
+    flex-direction: column;
+    
+}
+.exp-form {
+    justify-self: center;
+}
+.exp-form  h5{
+    justify-self: center;
+}
+.exp-form form{
+    justify-self: center;
+    width: 55%;
+}
+.exp-table{
+    justify-self: center;
+}
+.exp-table h5{
+    margin-top: 2rem;
+    justify-self: center;
+    
+}
