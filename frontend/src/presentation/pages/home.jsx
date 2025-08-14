@@ -126,7 +126,7 @@ export default function Homepage() {
             <div className="exp-table">
                 <h5>Your Expenses</h5>
                 
-                {total >0 && <h5>You have spend a total of {total}</h5>}
+                {total >0 && <h5>You have spend a total of Rs.{total}</h5>}
                 <div style={{justifySelf:'right'}}>
                 <select className='form-control' onChange={(e)=>setFilter(e.target.value)}>
                     <option value="Filter" >Filter</option>
